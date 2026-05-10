@@ -70,5 +70,6 @@ Once the system is online, use these commands in your Telegram chat:
 * `Status`: Check if the system is **Armed** and if a flame is currently detected.
 * `Activate alarm`: Arms the system. A **15-second delay** is provided to allow you to leave the area before monitoring begins.
 * `Turn off alarm`: Instantly silences the buzzer and puts the system into **Sleep Mode**.
+* NB: AT the start, the system is already activated
 
 ---
