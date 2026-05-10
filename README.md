@@ -6,15 +6,15 @@
 
 ##  Key Features
 
-*  Dual-Core Execution Engine**:
+*  Dual-Core Execution Engine:
 * **Core 0**: High-priority real-time polling (Detection & Buzzer).
 * **Core 1**: Communication layer (WiFi & Telegram Bot API).
 
 
-*  Thread-Safe State Management**: Utilizes `portMUX_TYPE` mutexes to prevent race conditions during cross-core data sharing.
-*  Remote Control**: Fully manageable via Telegram commands (Arm/Disarm/Status).
-*  Non-Blocking Logic**: Zero `delay()` calls; the system remains responsive 100% of the time using asynchronous timers.
-*  Smart Debouncing**: Advanced signal filtering to eliminate false positives from IR noise.
+*  Thread-Safe State Management: Utilizes `portMUX_TYPE` mutexes to prevent race conditions during cross-core data sharing.
+*  Remote Control: Fully manageable via Telegram commands (Arm/Disarm/Status).
+*  Non-Blocking Logic: Zero `delay()` calls; the system remains responsive 100% of the time using asynchronous timers.
+*  Smart Debouncing: Advanced signal filtering to eliminate false positives from IR noise.
 
 ---
 
