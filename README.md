@@ -4,21 +4,21 @@
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-* **⚡ Dual-Core Execution Engine**:
+* ** Dual-Core Execution Engine**:
 * **Core 0**: High-priority real-time polling (Detection & Buzzer).
 * **Core 1**: Communication layer (WiFi & Telegram Bot API).
 
 
-* **🔒 Thread-Safe State Management**: Utilizes `portMUX_TYPE` mutexes to prevent race conditions during cross-core data sharing.
-* **📲 Remote Control**: Fully manageable via Telegram commands (Arm/Disarm/Status).
-* **⏳ Non-Blocking Logic**: Zero `delay()` calls; the system remains responsive 100% of the time using asynchronous timers.
-* **🛡️ Smart Debouncing**: Advanced signal filtering to eliminate false positives from IR noise.
+* ** Thread-Safe State Management**: Utilizes `portMUX_TYPE` mutexes to prevent race conditions during cross-core data sharing.
+* ** Remote Control**: Fully manageable via Telegram commands (Arm/Disarm/Status).
+* ** Non-Blocking Logic**: Zero `delay()` calls; the system remains responsive 100% of the time using asynchronous timers.
+* ** Smart Debouncing**: Advanced signal filtering to eliminate false positives from IR noise.
 
 ---
 
-## 🏗️ Code Architecture
+##  Code Architecture
 
 The firmware is designed with a **Task-Based Architecture** to ensure separation of concerns.
 
@@ -34,7 +34,7 @@ The firmware is designed with a **Task-Based Architecture** to ensure separation
 3. **Action**: The user can send a command to Core 1 to reset the flag on Core 0.
 
 ---
-## 📥 Installation
+##  Installation
 
 ### 1. Prerequisites
 
@@ -63,7 +63,7 @@ const String AUTHORIZED_CHAT_ID = "YOUR_NUMERICAL_ID";
 
 ---
 
-## 📲 User Guide
+##  User Guide
 
 Once the system is online, use these commands in your Telegram chat:
 
