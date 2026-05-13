@@ -1,4 +1,8 @@
 # 🛡️ ESP32-FireGuard: Dual-Core Flame Alarm
+<!-- C++ -->
+![Platform: ESP32](https://img.shields.io/badge/Platform-Web-orange?style=for-the-badge&logo=css3)
+![Language: C++](https://img.shields.io/badge/Language-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 **ESP32-FireGuard** is a high-reliability IoT security solution engineered to detect flames or physical intrusions using IR sensors. By leveraging the **ESP32’s dual-core architecture (FreeRTOS)**, this system ensures that critical safety monitoring is never delayed by network latency or WiFi processing.
 
